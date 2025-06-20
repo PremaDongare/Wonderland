@@ -1,0 +1,249 @@
+ 
+
+ body{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+} 
+.container{
+  flex: 1;
+ 
+}
+.navbar{
+   height:5rem;
+   background-color:white;
+}
+.fa-solid{
+   color:#fe424d;
+   font-size:2.5rem;
+}
+.nav-link{
+   color:#222222 !important;
+}
+/* footer */
+
+
+.f-info-links a{
+   text-decoration: none;
+   color:#222222;
+ }
+ 
+ .f-info-links a:hover{
+   text-decoration: underline;
+ }
+ 
+ 
+ .f-info {
+   width: 100% !important;
+   text-align: center;
+   background-color:#ebebeb;
+   padding: 2rem 0;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   gap: 1rem; 
+ }
+ 
+ 
+ .f-info-links, .f-info-socials, .f-info-brands {
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   align-items: center;
+   margin: 0.5rem 0;
+   width: 100% !important;
+ }
+ 
+ .f-info-socials i {
+   font-size: 1.2rem;
+   margin: 0 0.5rem;
+ }
+ .listing-card{
+  border:none !important;
+  margin-bottom: 2rem;
+  
+  
+  
+ }
+ .card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  height: 20rem !important; /* Or whatever size you want */
+  object-fit: cover;
+}
+
+ .card-body{
+  padding: 0 !important;
+ }
+ .card-text p{
+  font-weight:400;
+ }
+ .Listing-link{
+  text-decoration: none;
+ }
+ .card-img-overlay{
+  opacity: 0;
+ }
+ .card-img-overlay:hover{
+  opacity: 0.2;
+  background-color: white;
+ }
+
+ 
+  /* login page */
+
+  .login-container {
+  margin-top: 7rem; /* or try 6rem first */
+  padding: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+  .form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+    
+  }
+
+  .btn-airbnb {
+    background-color: #fe424d;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+  }
+
+  .btn-airbnb:hover {
+    background-color: #e63946;
+    color: white;
+  }
+
+  /* Signup */
+
+   .signup-container {
+    margin-top: 5rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+  }
+
+  .btn-airbnb {
+    background-color: #fe424d;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+  }
+
+  .btn-airbnb:hover {
+    background-color: #e63946;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /* Add listing */
+  .form-container {
+    margin-top: 5rem;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  }
+
+  .form-control {
+    border-radius: 12px;
+    padding: 0.75rem;
+  }
+
+  .form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-airbnb {
+    background-color: #fe424d;
+    color: white;
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 25px;
+    font-weight: 500;
+  }
+
+  .btn-airbnb:hover {
+    background-color: #e63946;
+    color: white;
+  }
+
+  h3 {
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  select.form-control {
+    padding: 0.7rem;
+  }
+
+  /* edit */
+
+  .form-container {
+    margin-top: 4rem;
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  }
+
+  .form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-control {
+    border-radius: 12px;
+    padding: 0.75rem;
+  }
+
+  .btn-airbnb {
+    background-color: #fe424d !important;
+    color: white;
+    border: none;
+    padding: 0.6rem 2rem;
+    border-radius: 25px;
+    font-weight: 500;
+  }
+
+  .btn-airbnb:hover {
+    background-color: #e63946;
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+
+  /* img {
+    width: 50%;
+    height: 200px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+  } */

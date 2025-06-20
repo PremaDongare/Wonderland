@@ -1,0 +1,33 @@
+<% layout('layouts/boilerplate') %>
+
+<style>
+ 
+</style>
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6 signup-container">
+      <h1>Sign up on Wanderland</h1>
+      <form action="/signup" method="POST" class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="username" class="form-label">Username</label>
+          <input name="username" id="username" type="text" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input name="email" id="email" type="email" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input name="password" id="password" type="password" class="form-control" required />
+        </div>
+
+        <div class="d-grid">
+          <button type="submit" class="btn btn-airbnb">Sign Up</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

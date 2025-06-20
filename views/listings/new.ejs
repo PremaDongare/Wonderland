@@ -1,0 +1,64 @@
+<% layout('layouts/boilerplate') %>
+
+
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 form-container">
+      <h3>Create a New Listing</h3>
+      <form method="POST" action="/listings" enctype="multipart/form-data" novalidate class="needs-validation">
+
+        <div class="mb-3">
+          <label for="title" class="form-label">Title</label>
+          <input id="title" name="listing[title]" type="text" class="form-control" placeholder="Add a catchy title" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea id="description" name="listing[description]" class="form-control" rows="4" required></textarea>
+        </div>
+
+        <div class="mb-3">
+          <label for="image" class="form-label">Upload Image</label>
+          <input name="listing[image]" type="file" class="form-control" />
+        </div>
+
+        <div class="row">
+          <div class="mb-3 col-md-4">
+            <label for="price" class="form-label">Price (INR)</label>
+            <input id="price" name="listing[price]" type="number" class="form-control" required />
+          </div>
+
+          <div class="mb-3 col-md-8">
+            <label for="country" class="form-label">Country</label>
+            <input id="country" name="listing[country]" type="text" class="form-control" required />
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="location" class="form-label">Location</label>
+          <input id="location" name="listing[location]" type="text" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="category" class="form-label">Category</label>
+          <select name="listing[category]" class="form-control" required>
+            <option value="" disabled selected>Select a category</option>
+            <option value="Trending">Trending</option>
+            <option value="Mountains">Mountains</option>
+            <option value="Iconic cities">Iconic cities</option>
+            <option value="Castels">Castels</option>
+            <option value="Amazing Pools">Amazing Pools</option>
+            <option value="Camping">Camping</option>
+            <option value="Farms">Farms</option>
+            <option value="Artic">Artic</option>
+          </select>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-airbnb mt-3">Add Listing</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
