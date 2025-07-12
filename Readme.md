@@ -1,6 +1,6 @@
-# 🌍 Wanderland - Travel Listing Web App
+# 🌍 Wonderland - Travel Listing Web App
 
-Wanderland is a full-stack travel listing web app inspired by Airbnb 🌐.  
+Wonderland is a full-stack travel listing web app inspired by Airbnb 🌐.  
 It allows users to explore places, post property listings, leave reviews etc.
 
 
@@ -27,7 +27,7 @@ It allows users to explore places, post property listings, leave reviews etc.
 - **Frontend:** HTML, CSS, Bootstrap, EJS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (Mongoose)
-- **Other Tools:** Cloudinary, Mapbox, Passport.js, Multer, Dotenv
+- **Other Tools:** Cloudinary, Passport.js, Multer, Dotenv
 
 ## 📸 Demo
 
